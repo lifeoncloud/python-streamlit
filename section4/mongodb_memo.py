@@ -6,7 +6,7 @@ from datetime import datetime, time
 # Streamlit 활용 스케줄까지 포함된 메모장 만들기
 
 # MongoDB 클러스터 연결 정보
-CONNECTION_STRING = 'mongodb+srv://<username>:<password>@<clustername>.vqisg.mongodb.net//?retryWrites=true&w=majority'
+CONNECTION_STRING = 'mongodb+srv://<username>:<password>@<clustername>.vqisg.mongodb.net/?retryWrites=true&w=majority'
 client = MongoClient(CONNECTION_STRING, tlsCAFile=certifi.where())
 
 # 데이터베이스 및 컬렉션 선택하기
