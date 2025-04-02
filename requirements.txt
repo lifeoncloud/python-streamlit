@@ -1,3 +1,4 @@
+python==3.12
 googletrans==3.1.0a0
 pandas>=2.2.2
 matplotlib~=3.4.2
